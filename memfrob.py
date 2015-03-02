@@ -1,4 +1,3 @@
-"""YOUR STRING GOES IN AS STR"""
 import sys
 if 0 > len(sys.argv) > 1:
         sys.exit(0)
