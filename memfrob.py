@@ -1,6 +1,9 @@
-"""YOUR STRING GOES IN AS STR -- FOR NOW YOU HAVE TO PUT COMMAS AFTER EVERY CHARACTER, I'LL FIX THIS IN THE NEXT RELEASE."""
-str = "C,G,C,D,S,E,_,X,G,K,I,B,C,D,O,Y,^,O,K,F,C,D,M,S,E,_,X,L,F,K,M,Y"
-str = str.split(',')
+"""YOUR STRING GOES IN AS STR"""
+import sys
+if 0 > len(sys.argv) > 1:
+        sys.exit(0)
+str = sys.argv[1]
+str = list(str)
 xok = 0x2a
 len = len(str)
 kek = []
